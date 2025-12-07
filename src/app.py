@@ -1,15 +1,8 @@
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+print("Welcome to CoolPythonApp 🚀")
 
-print("Hello from virtual environment!")
+name = input("Enter your name: ")
+age = input("Enter your age: ")
 
-a = np.array([1, 2, 3])
-print("Numpy array:", a)
-
-df = pd.DataFrame({"Numbers": [1, 2, 3]})
-print(df)
-
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.title("Test Plot")
-plt.show()
+print("\n--- Your Info ---")
+print(f"Name: {name}")
+print(f"Age: {age}")
